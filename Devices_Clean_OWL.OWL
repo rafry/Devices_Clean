@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="SEMOSS:ENGINE_METADATA">
+	<BASE_URI xmlns="CONTAINS:" rdf:resource="http://semoss.org/ontologies/Concept/"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV"/>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/UniqueID/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/UniqueID/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/UniqueID/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Customer_Org_Description/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Customer_Org_Description/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Customer_Org_Description/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Acquisition_Commodity_Class/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Acquisition_Commodity_Class/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Acquisition_Commodity_Class/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Location_1/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Location_1/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Location_1/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Device_Class/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Device_Class/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Device_Class/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Equipment_Location/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Equipment_Location/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Equipment_Location/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Equipment_Nomenclature/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Equipment_Nomenclature/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Equipment_Nomenclature/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Manufacturer_Name/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Manufacturer_Name/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Manufacturer_Name/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Common_Model/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Common_Model/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Common_Model/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Nameplate_Model/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Nameplate_Model/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Nameplate_Model/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Manufacturer_Serial_Number/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Manufacturer_Serial_Number/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Manufacturer_Serial_Number/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Life_Expectancy/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Life_Expectancy/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:FLOAT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Life_Expectancy/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Acquisition_Date/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Acquisition_Date/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:DATE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Acquisition_Date/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Acquisition_Cost/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Acquisition_Cost/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:FLOAT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Acquisition_Cost/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Equipment_Ownership/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Equipment_Ownership/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Equipment_Ownership/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Device_Type/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Device_Type/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Device_Type/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Device_Criticality/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Device_Criticality/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Device_Criticality/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Connector_Compatible/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Connector_Compatible/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Connector_Compatible/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/EHR_Compatible/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/EHR_Compatible/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/EHR_Compatible/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Replacement_Date/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Replacement_Date/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:DATE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Replacement_Date/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Past_Life_Expectancy/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Past_Life_Expectancy/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Past_Life_Expectancy/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Fiscal_Year_EOL/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Fiscal_Year_EOL/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Fiscal_Year_EOL/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Fiscal_Quarter_EOL/CLEANSED_DEVICESCSV"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CLEANSED_DEVICESCSV_UNIQUE_ROW_ID/CLEANSED_DEVICESCSV">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Fiscal_Quarter_EOL/CLEANSED_DEVICESCSV">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Fiscal_Quarter_EOL/CLEANSED_DEVICESCSV"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2018:02:28 23:45:47</TIME>
+</rdf:Description>
+
+</rdf:RDF>
