@@ -1,0 +1,8 @@
+{
+  "layout": "panel",
+  "rdbmsId": "172e50dd-3775-4d1e-b990-dab55527ebd6",
+  "hidden": false,
+  "engine": "Devices_Clean",
+  "insightName": "Overview of Devices by Class, Type, and Manufacturer",
+  "recipe": "DashboardInsightConfig(insights\u003d[\"Devices_Clean__0cca4b38-6b78-4e53-955e-f9f1f54fd051\"], oldIds\u003d[\"15_ff82e3ec-2a06-45a0-90ed-9534a2674474\"], layout\u003d[\"\u003cencode\u003e{\"currentLayout\":{\"config\":{\"options\":{\"type\":\"template\",\"templateOptions\":[{\"top\":0,\"left\":0,\"width\":50,\"height\":100},{\"top\":0,\"left\":50,\"width\":50,\"height\":50},{\"top\":50,\"left\":50,\"width\":50,\"height\":50}]},\"scroll\":{\"active\":false,\"down\":true,\"up\":true},\"panels\":{\"SMSSWidget15_ff82e3ec-2a06-45a0-90ed-9534a2674474___0\":{\"top\":0,\"left\":0,\"height\":100,\"width\":50,\"index\":0,\"panelstatus\":\"normalized\"},\"SMSSWidget15_ff82e3ec-2a06-45a0-90ed-9534a2674474___1\":{\"top\":0,\"left\":50,\"height\":50,\"width\":50,\"index\":1,\"panelstatus\":\"normalized\"},\"SMSSWidget15_ff82e3ec-2a06-45a0-90ed-9534a2674474___2\":{\"top\":50,\"left\":50,\"height\":50,\"width\":50,\"index\":2,\"panelstatus\":\"normalized\"}}},\"selectedWidget\":\"SMSSWidget15_ff82e3ec-2a06-45a0-90ed-9534a2674474___2\",\"availableWidgets\":[{\"widgetId\":\"SMSSWidget15_ff82e3ec-2a06-45a0-90ed-9534a2674474___0\",\"open\":true,\"deleted\":false},{\"widgetId\":\"SMSSWidget15_ff82e3ec-2a06-45a0-90ed-9534a2674474___1\",\"open\":true,\"deleted\":false},{\"widgetId\":\"SMSSWidget15_ff82e3ec-2a06-45a0-90ed-9534a2674474___2\",\"open\":true,\"deleted\":false}]},\"selectedLayout\":\"panel\"}\u003c/encode\u003e\"] );"
+}
